@@ -6,8 +6,15 @@ public abstract class Employee
     String name;
     int age;
 
-    public int calBirthYear(){
+    public int calBirthYear()
+    {
         return age;
+
     }
+
+    public int Earnings()
+        {
+            return 100;
+        }
 
 }
