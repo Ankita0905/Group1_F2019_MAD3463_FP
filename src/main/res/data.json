@@ -29,6 +29,33 @@
     "salary": 8500.0,
     "bonus": 300.0,
     "type": "FullTime"
+  },
+  {
+    "id": 3,
+    "name": "Simran Singh",
+    "age": 27,
+    "vehicle": {
+      "id": 0,
+      "make": "Honda",
+      "plate": "GHI-1234 ",
+      "model": "CBR-1000",
+      "insurance": true,
+      "type": "Motorcycle"
+    },
+    "rate": 20.0,
+    "hoursWorked": 165,
+    "fixedAmount": 130.0,
+    "type": "PartTime / Fixed Amount"
+  },
+  {
+    "id": 4,
+    "name": "Ankita",
+    "age": 29,
+    "vehicle": null,
+    "rate": 40.0,
+    "hoursWorked": 178,
+    "commissionPercent": 20,
+    "type": "PartTime / Commissioned"
   }
 
 ]
