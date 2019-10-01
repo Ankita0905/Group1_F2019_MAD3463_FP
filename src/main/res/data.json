@@ -56,6 +56,21 @@
     "hoursWorked": 178,
     "commissionPercent": 20,
     "type": "PartTime / Commissioned"
+  },
+  {
+    "id": 5,
+    "name": "Kamal",
+    "age": 26,
+    "vehicle": {
+      "id": 0,
+      "make": "Maruti",
+      "plate": "JKL-1234 ",
+      "model": "Swift",
+      "insurance": true,
+      "type": "Car"
+    },
+    "salary": 6500.0,
+    "bonus": 700.0,
+    "type": "FullTime"
   }
-
 ]
