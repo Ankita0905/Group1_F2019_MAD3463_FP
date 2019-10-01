@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Karan",
+    "age": 22,
+    "vehicle": {
+      "id": 0,
+      "make": "BMW",
+      "plate": "ABC-1234 ",
+      "model": "RR-1000",
+      "insurance": true,
+      "type": "Motorcycle"
+    },
+    "schoolName": "Lambton College",
+    "type": "Intern"
+  },
+  {
+    "id": 2,
+    "name": "Sandeep",
+    "age": 23,
+    "vehicle": {
+      "id": 0,
+      "make": "Acura",
+      "plate": "DEF-1234 ",
+      "model": "RDX",
+      "insurance": true,
+      "type": "Car"
+    },
+    "salary": 8500.0,
+    "bonus": 300.0,
+    "type": "FullTime"
+  }
+
+]
