@@ -12,7 +12,7 @@ public abstract class Employee
 
     }
 
-    public int Earnings()
+    public int calEarnings()
         {
             return 100;
         }
