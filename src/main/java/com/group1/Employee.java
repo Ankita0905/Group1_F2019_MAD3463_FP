@@ -2,9 +2,9 @@ package com.group1;
 
 public abstract class Employee
 {
-    int id;
-    String name;
-    int age;
+    private int id;
+    private String name;
+    private int age;
 
     public int calBirthYear()
     {
