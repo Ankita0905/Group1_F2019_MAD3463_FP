@@ -8,4 +8,5 @@ public class FixedBasedPartTime extends PartTime
     public int calEarnings() {
         return 0;
     }
+
 }
