@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public abstract class Employee {
     private String name;
     private int age;
-    float EARNING = 1000.0f;
+    float Earning = 1000.0f;
 
     public Employee(String name, int age) {
         this.name = name;
@@ -26,14 +26,6 @@ public abstract class Employee {
 
     private void setAge(int age) {
         this.age = age;
-    }
-
-    public int getBirthYear() {
-        return calculateBirthYear();
-    }
-
-    private int calculateBirthYear() {
-        return LocalDate.now().getYear() - getAge();
     }
 
     public abstract float calculateEarning();
