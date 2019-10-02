@@ -1,10 +1,12 @@
 package com.group1;
 
+import java.time.LocalDate;
+
 public abstract class Employee
 {
-    int id;
-    String name;
-    int age;
+    private int id;
+    private String name;
+    private int age;
 
     public int calBirthYear()
     {
@@ -12,9 +14,7 @@ public abstract class Employee
 
     }
 
-    public int calEarnings()
-        {
-            return 100;
-        }
+    public abstract int calEarnings();
+
 
 }
