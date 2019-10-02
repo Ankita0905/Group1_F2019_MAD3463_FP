@@ -32,8 +32,14 @@ public abstract class Employee {
         this.age = age;
     }
 
-    private int calculateBirthYear() {
+    private int calculateBirthYear()
+    {
         return LocalDate.now().getYear() - getAge();
+    }
+
+    public int getBirthYear()
+    {
+        return calculateBirthYear();
     }
 
     public abstract float calculateEarning();
