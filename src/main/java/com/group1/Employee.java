@@ -2,19 +2,41 @@ package com.group1;
 
 import java.time.LocalDate;
 
-public abstract class Employee
-{
-    private int id;
+public abstract class Employee {
     private String name;
     private int age;
+    float EARNING = 1000.0f;
 
-    public int calBirthYear()
-    {
-        return age;
-
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
-    public abstract int calEarnings();
+    public String getName() {
+        return name;
+    }
 
+    private void setName(String name) {
+        this.name = name;
+    }
 
+    public int getAge() {
+        return age;
+    }
+
+    private void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getBirthYear() {
+        return calculateBirthYear();
+    }
+
+    private int calculateBirthYear() {
+        return LocalDate.now().getYear() - getAge();
+    }
+
+    public abstract float calculateEarning();
+
+    public abstract void printMyData();
 }

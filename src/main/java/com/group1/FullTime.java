@@ -2,8 +2,8 @@ package com.group1;
 
 public class FullTime extends Employee
 {
-    float salary;
-    float bonus;
+    private float salary;
+    private float bonus;
 
 
     @Override
