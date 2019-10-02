@@ -14,4 +14,5 @@ public class CommissionBasedPartTime extends PartTime
         return super.calEarnings();
     }
 
+
 }
