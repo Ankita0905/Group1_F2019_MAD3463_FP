@@ -14,6 +14,6 @@ public class FullTime extends Employee
 
     @Override
     public int calEarnings() {
-        return super.calEarnings();
+        return 0;
     }
 }

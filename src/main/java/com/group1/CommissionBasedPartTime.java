@@ -10,9 +10,8 @@ public class CommissionBasedPartTime extends PartTime
     }
 
     @Override
-    public int calEarnings() {
-        return super.calEarnings();
-    }
-
-
+    public int calEarnings()
+    {
+        return 0;
+  }
 }
