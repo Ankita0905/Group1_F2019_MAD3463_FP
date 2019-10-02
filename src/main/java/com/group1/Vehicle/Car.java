@@ -1,4 +1,5 @@
 package com.group1.Vehicle;
 
-public class Car {
+public class Car extends Vehicle
+{
 }
