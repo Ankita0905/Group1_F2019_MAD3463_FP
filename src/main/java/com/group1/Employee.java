@@ -12,20 +12,28 @@ public abstract class Employee {
         this.age = age;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    private void setName(String name) {
+    private void setName(String name)
+    {
         this.name = name;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return age;
     }
 
-    private void setAge(int age) {
+    private void setAge(int age)
+    {
         this.age = age;
+    }
+
+    private int calculateBirthYear() {
+        return LocalDate.now().getYear() - getAge();
     }
 
     public abstract float calculateEarning();
