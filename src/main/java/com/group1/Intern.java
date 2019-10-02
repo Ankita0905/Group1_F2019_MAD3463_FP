@@ -2,7 +2,7 @@ package com.group1;
 
 public class Intern extends Employee
 {
-    private String schoolName;
+    String schoolName;
 
     @Override
     public int calEarnings() {
