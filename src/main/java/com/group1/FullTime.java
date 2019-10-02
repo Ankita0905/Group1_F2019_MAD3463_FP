@@ -13,6 +13,7 @@ public class FullTime extends Employee
     }
 
     @Override
+
     public int calEarnings() {
         return 0;
     }
