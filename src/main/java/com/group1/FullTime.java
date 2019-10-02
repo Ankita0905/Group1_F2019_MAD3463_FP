@@ -4,6 +4,6 @@ public class FullTime extends Employee
 {
     float salary;
     float bonus;
-    
+
 
 }
