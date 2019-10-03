@@ -20,5 +20,10 @@ public class Intern extends Employee
         super(name, age);
         this.schoolName = schoolName;
     }
+    @Override
+    public float calculateEarning()
+    {
+        return Earning;
+    }
 }
 
