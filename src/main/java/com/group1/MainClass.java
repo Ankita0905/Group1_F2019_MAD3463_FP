@@ -12,6 +12,8 @@ public class MainClass
         c1.printMyData();
         FixedBasedPartTime f1 = new FixedBasedPartTime("Kamal", 25, 20.0f, 15, 30.0f);
         f1.printMyData();
+        FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
+        ft1.printMyData();
 
     }
 }
