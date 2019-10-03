@@ -18,4 +18,10 @@ public class FullTime extends Employee
     {
         this.bonus = bonus;
     }
+    public FullTime(String name, int age, float salary, float bonus)
+    {
+        super(name, age);
+        this.salary = salary;
+        this.bonus = bonus;
+    }
 }
