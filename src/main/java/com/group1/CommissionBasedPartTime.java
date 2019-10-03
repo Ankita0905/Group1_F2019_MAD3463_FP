@@ -38,6 +38,7 @@ public class CommissionBasedPartTime extends PartTime
         super.printMyData();
         System.out.println("Employee is PartTime / Commissioned");
         System.out.println("Rate:" + " " + getRate());
+        System.out.println("HoursWorked:" + " " + getHoursWorked());
 
     }
 
