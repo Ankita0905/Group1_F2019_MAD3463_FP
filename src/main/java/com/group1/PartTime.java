@@ -16,4 +16,14 @@ public abstract class PartTime extends Employee
     {
         return hoursWorked;
     }
+    private void setHoursWorked(int hoursWorked)
+    {
+        this.hoursWorked = hoursWorked;
+    }
+    public PartTime(String name, int age, float rate, int hoursWorked)
+    {
+        super(name, age);
+        this.rate = rate;
+        this.hoursWorked = hoursWorked;
+    }
 }
