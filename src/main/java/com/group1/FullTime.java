@@ -14,4 +14,8 @@ public class FullTime extends Employee
     {
         return bonus;
     }
+    private void setBonus(float bonus)
+    {
+        this.bonus = bonus;
+    }
 }
