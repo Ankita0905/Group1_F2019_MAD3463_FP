@@ -13,4 +13,8 @@ public class CommissionBasedPartTime extends PartTime
     {
         return CommissionPer;
     }
+    private void setCommission(float CommissionPer)
+    {
+        CommissionPer = CommissionPer;
+    }
 }
