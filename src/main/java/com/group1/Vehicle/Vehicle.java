@@ -6,6 +6,7 @@ public class Vehicle implements IPrintable
 
 {
     private String make;
+    private String model;
 
 
     @Override
