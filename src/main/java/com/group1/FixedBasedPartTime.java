@@ -7,6 +7,10 @@ public class FixedBasedPartTime extends PartTime
     {
         return fixedAmount;
     }
+    private void setFixedAmount(float fixedAmount)
+    {
+        this.fixedAmount = fixedAmount;
+    }
 
 
    
