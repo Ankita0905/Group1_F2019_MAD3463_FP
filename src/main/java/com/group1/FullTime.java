@@ -9,4 +9,9 @@ public class FullTime extends Employee
     {
         return salary;
     }
+
+    private float getBonus()
+    {
+        return bonus;
+    }
 }
