@@ -24,6 +24,7 @@ public class FixedBasedPartTime extends PartTime
     @Override
     public void printMyData() {
         super.printMyData();
+        System.out.println("Employee is PartTime / Fixed Amt");
     }
 
 
