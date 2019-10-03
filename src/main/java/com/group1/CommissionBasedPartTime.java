@@ -17,4 +17,9 @@ public class CommissionBasedPartTime extends PartTime
     {
         CommissionPer = CommissionPer;
     }
+    private float calculateHours()
+    {
+        return getRate() * getHoursWorked();
+    }
+
 }
