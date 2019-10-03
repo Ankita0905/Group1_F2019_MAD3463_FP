@@ -9,5 +9,11 @@ public class Intern extends Employee
     {
         return schoolName;
     }
+
+    private void setSchoolName(String schoolName)
+    {
+        this.schoolName = schoolName;
+    }
+
 }
 
