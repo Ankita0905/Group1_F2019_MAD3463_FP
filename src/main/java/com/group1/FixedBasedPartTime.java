@@ -16,6 +16,11 @@ public class FixedBasedPartTime extends PartTime
         super(name, age, rate, hoursWorked);
         this.fixedAmount = fixedAmount;
     }
+    @Override
+    public float calculateEarning()
+    {
+        
+    }
 
 
    
