@@ -28,7 +28,8 @@ public class Intern extends Employee
     @Override
     public void printMyData()
     {
-        
+        System.out.println("Name:" + " " + getName());
+
     }
 }
 
