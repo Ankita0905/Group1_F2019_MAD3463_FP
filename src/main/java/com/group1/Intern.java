@@ -15,5 +15,10 @@ public class Intern extends Employee
         this.schoolName = schoolName;
     }
 
+    public Intern(String name, int age, String schoolName)
+    {
+        super(name, age);
+        this.schoolName = schoolName;
+    }
 }
 
