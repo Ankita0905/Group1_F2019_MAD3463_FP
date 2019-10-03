@@ -8,5 +8,12 @@ public abstract class PartTime extends Employee
     {
         return rate;
     }
-
+    private void setRate(float rate)
+    {
+        this.rate = rate;
+    }
+    public int getHoursWorked()
+    {
+        return hoursWorked;
+    }
 }
