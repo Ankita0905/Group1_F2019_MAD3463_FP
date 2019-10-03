@@ -22,4 +22,11 @@ public class CommissionBasedPartTime extends PartTime
         return getRate() * getHoursWorked();
     }
 
+    private float calculateCommission()
+    {
+        float calculateHours = calculateHours();
+        return (calculateHours + ((calculateHours * getCommissionPer()) / 100));
+    }
+
+
 }
