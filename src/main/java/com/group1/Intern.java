@@ -25,5 +25,10 @@ public class Intern extends Employee
     {
         return Earning;
     }
+    @Override
+    public void printMyData()
+    {
+        
+    }
 }
 
