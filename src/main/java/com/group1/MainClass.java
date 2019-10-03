@@ -15,5 +15,6 @@ public class MainClass
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
         ft1.printMyData();
 
+
     }
 }
