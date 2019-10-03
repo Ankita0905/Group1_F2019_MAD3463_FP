@@ -1,10 +1,7 @@
 package com.group1;
 
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.FileNotFoundException;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 public class MainClass
 {
