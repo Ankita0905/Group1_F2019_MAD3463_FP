@@ -40,7 +40,7 @@ public class CommissionBasedPartTime extends PartTime
         System.out.println("Rate:" + " " + getRate());
         System.out.println("HoursWorked:" + " " + getHoursWorked());
         System.out.println("Commission:" + " " + getCommissionPer()+"%");
-
+        System.out.println("Earnings:" + " " + calculateEarning());
     }
 
 }
