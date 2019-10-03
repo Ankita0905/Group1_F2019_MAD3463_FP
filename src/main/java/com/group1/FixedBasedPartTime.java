@@ -26,6 +26,7 @@ public class FixedBasedPartTime extends PartTime
         super.printMyData();
         System.out.println("Employee is PartTime / Fixed Amt");
         System.out.println("Rate:" + " " + getRate());
+        System.out.println("HoursWorked:" + " " + getHoursWorked());
     }
 
 
