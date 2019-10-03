@@ -9,4 +9,8 @@ public class CommissionBasedPartTime extends PartTime
         super(name, age, rate, hoursWorked);
         this.CommissionPer = CommissionPer;
     }
+    private float getCommissionPer()
+    {
+        return CommissionPer;
+    }
 }
