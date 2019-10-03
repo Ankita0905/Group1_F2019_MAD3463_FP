@@ -9,6 +9,7 @@ public class Vehicle implements IPrintable
     private String model;
     private int year;
     private String plateNum;
+    private String typeOfVehicle;
 
 
     @Override
