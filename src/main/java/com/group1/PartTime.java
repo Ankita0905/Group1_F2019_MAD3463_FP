@@ -2,12 +2,11 @@ package com.group1;
 
 public abstract class PartTime extends Employee
 {
-    private int rate;
+    private float rate;
     private int hoursWorked;
-    private float fixedAmount;
-
-    public PartTime(String name, int age)
+    public float getRate()
     {
-        super(name, age);
+        return rate;
     }
+
 }
