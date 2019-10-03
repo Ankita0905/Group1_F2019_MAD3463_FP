@@ -27,6 +27,10 @@ public class CommissionBasedPartTime extends PartTime
         float calculateHours = calculateHours();
         return (calculateHours + ((calculateHours * getCommissionPer()) / 100));
     }
-
+    @Override
+    public float calculateEarning()
+    {
+        return calculateCommission();
+    }
 
 }
