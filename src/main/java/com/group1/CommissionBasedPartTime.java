@@ -4,5 +4,5 @@ public class CommissionBasedPartTime extends PartTime
 {
     private int commissionPercent;
 
-   
+
 }
