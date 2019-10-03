@@ -30,5 +30,6 @@ public abstract class PartTime extends Employee
     public void printMyData() {
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
+
     }
 }

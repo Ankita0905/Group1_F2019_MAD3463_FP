@@ -27,6 +27,7 @@ public class FullTime extends Employee
 
     @Override
     public float calculateEarning()
+            
     {
         return getSalary() + getBonus();
     }
@@ -34,5 +35,11 @@ public class FullTime extends Employee
     public void printMyData() {
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
+        System.out.println("Employee is Full Time");
+        System.out.println("The salary is: " +getSalary());
+        System.out.println("Bonus is: " +getBonus());
+        System.out.println("Earnings: " +calculateEarning());
+        System.out.println("**********************************************************************************");
+
     }
 }
