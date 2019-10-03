@@ -2,7 +2,7 @@ package com.group1;
 
 import java.time.LocalDate;
 
-public abstract class Employee {
+public abstract class Employee implements IPrintable {
     private String name;
     private int age;
     float Earning = 1000.0f;
