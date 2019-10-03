@@ -19,7 +19,7 @@ public class FixedBasedPartTime extends PartTime
     @Override
     public float calculateEarning()
     {
-        
+        return (getRate() * getHoursWorked() + getFixedAmount());
     }
 
 
