@@ -11,6 +11,11 @@ public class FixedBasedPartTime extends PartTime
     {
         this.fixedAmount = fixedAmount;
     }
+    public FixedBasedPartTime(String name, int age, float rate, int hoursWorked, float fixedAmount)
+    {
+        super(name, age, rate, hoursWorked);
+        this.fixedAmount = fixedAmount;
+    }
 
 
    
