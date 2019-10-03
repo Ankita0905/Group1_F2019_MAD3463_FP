@@ -21,6 +21,11 @@ public class FixedBasedPartTime extends PartTime
     {
         return (getRate() * getHoursWorked() + getFixedAmount());
     }
+    @Override
+    public void printMyData() {
+
+    }
+
 
 
    
