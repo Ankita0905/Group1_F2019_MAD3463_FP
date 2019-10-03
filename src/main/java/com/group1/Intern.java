@@ -30,6 +30,8 @@ public class Intern extends Employee
     {
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
+        System.out.println("Employee is Intern");
+        System.out.println("SchoolName:" + " " + getSchoolName());
 
     }
 }
