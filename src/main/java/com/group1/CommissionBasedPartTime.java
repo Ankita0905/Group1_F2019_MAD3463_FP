@@ -33,4 +33,10 @@ public class CommissionBasedPartTime extends PartTime
         return calculateCommission();
     }
 
+    @Override
+    public void printMyData() {
+        super.printMyData();
+
+    }
+
 }
