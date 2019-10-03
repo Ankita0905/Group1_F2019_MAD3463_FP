@@ -1,0 +1,35 @@
+Name: Ankita
+Year of Birth: 1995
+Employee is Intern
+SchoolName: Lambton College
+Earnings: 1000.0
+**********************************************************************************
+Name: Karan
+Year of Birth: 1996
+Employee is Intern
+SchoolName: Lambton College
+Earnings: 1000.0
+**********************************************************************************
+Name: Sandeep
+Year of Birth: 1997
+Employee is PartTime / Commissioned
+Rate: 20.0
+HoursWorked: 20
+Commission: 10.0%
+Earnings: 440.0
+**********************************************************************************
+Name: Kamal
+Year of Birth: 1994
+Employee is PartTime / Fixed Amt
+Rate: 20.0
+HoursWorked: 15
+Fixed Amount: 30.0
+Earnings: 330.0
+**********************************************************************************
+Name: Honey
+Year of Birth: 1993
+Employee is Full Time
+The salary is: 1500.0
+Bonus is: 200.0
+Earnings: 1700.0
+**********************************************************************************

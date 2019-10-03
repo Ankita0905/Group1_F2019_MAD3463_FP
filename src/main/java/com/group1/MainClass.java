@@ -1,9 +1,17 @@
 package com.group1;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class MainClass
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws FileNotFoundException {
+
+        PrintStream fileOut = new PrintStream("./out.txt");
+        System.setOut(fileOut);
         Intern i1 = new Intern("Ankita",  24, "Lambton College");
         i1.printMyData();
         Intern i2=new Intern("Karan", 23,"Lambton College");
@@ -14,6 +22,7 @@ public class MainClass
         f1.printMyData();
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
         ft1.printMyData();
+
 
 
     }
