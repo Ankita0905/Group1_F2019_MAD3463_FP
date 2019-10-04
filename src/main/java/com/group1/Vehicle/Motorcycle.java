@@ -10,5 +10,6 @@ public class Motorcycle extends Vehicle
     {
         System.out.println("make: " +getMake());
         System.out.println("model: " +getModel());
+        System.out.println("Year: " +getYear());
     }
 }
