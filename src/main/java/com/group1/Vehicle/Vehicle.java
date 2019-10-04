@@ -17,6 +17,7 @@ public class Vehicle implements IPrintable
         if(year<1900)
         { throw new IllegalArgumentException("too much old");
         }
+        this.year=year;
 
 
 
