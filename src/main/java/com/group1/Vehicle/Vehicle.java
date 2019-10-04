@@ -36,6 +36,7 @@ public class Vehicle implements IPrintable
     {
         this.model = model;
     }
+    public int getYear()
 
 
 
