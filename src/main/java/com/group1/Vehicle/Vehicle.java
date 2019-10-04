@@ -32,6 +32,7 @@ public class Vehicle implements IPrintable
     {
         return model;
     }
+    public void setModel(String model)
 
 
 
