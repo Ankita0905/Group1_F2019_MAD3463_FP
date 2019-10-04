@@ -28,6 +28,7 @@ public class Vehicle implements IPrintable
     {
         this.make = make;
     }
+    public String getModel()
 
 
 
