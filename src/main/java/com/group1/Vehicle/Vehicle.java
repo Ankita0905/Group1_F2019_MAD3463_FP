@@ -40,6 +40,7 @@ public class Vehicle implements IPrintable
     {
         return year;
     }
+    public void setYear(int year)
 
 
 
