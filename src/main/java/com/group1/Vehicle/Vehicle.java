@@ -50,6 +50,9 @@ public class Vehicle implements IPrintable
     public void setPlateNum(String plateNum) {
         this.plateNum = plateNum;
     }
+    public String getTypeOfVehicle() {
+        return typeOfVehicle;
+    }
 
 
 
