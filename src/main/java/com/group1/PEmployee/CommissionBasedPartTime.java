@@ -46,6 +46,7 @@ public class CommissionBasedPartTime extends PartTime
         Motorcycle m2=new Motorcycle("BMW","RR-1000",2018,"Sandy25","Motorcycle");
         m2.printMyData();
         System.out.println("**********************************************************************************");
+
     }
 
 }

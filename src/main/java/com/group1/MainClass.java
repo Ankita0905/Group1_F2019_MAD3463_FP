@@ -4,6 +4,12 @@ import com.group1.PEmployee.CommissionBasedPartTime;
 import com.group1.PEmployee.FixedBasedPartTime;
 import com.group1.PEmployee.FullTime;
 import com.group1.PEmployee.Intern;
+
+import com.group1.Vehicle.Car;
+import com.group1.Vehicle.Motorcycle;
+import com.group1.Vehicle.Vehicle;
+
+
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
@@ -27,11 +33,22 @@ public class MainClass
         //m2.printMyData();
         FixedBasedPartTime f1 = new FixedBasedPartTime("Kamal", 25, 20.0f, 15, 30.0f);
         f1.printMyData();
+
         FullTime ft1=new FullTime("Karan", 23, 1500f, 200f);
         ft1.printMyData();
         //Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
         //m1.printMyData();
         float totalPayroll=i1.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning();
+
+
+        FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
+        ft1.printMyData();
+        Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
+        m1.printMyData();
+
+        float totalPayroll=i1.calculateEarning()+i2.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning();
+        System.out.println("**********************************************************************************");
+
         System.out.println("Total Payroll: " + totalPayroll+" Canadian Dollars");
 
 

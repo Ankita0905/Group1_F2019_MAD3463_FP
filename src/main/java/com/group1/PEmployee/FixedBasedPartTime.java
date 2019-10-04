@@ -32,6 +32,7 @@ public class FixedBasedPartTime extends PartTime
         System.out.println("Employee has no Vehicle");
         System.out.println("**********************************************************************************");
 
+
     }
 
 
