@@ -14,6 +14,10 @@ public class Car extends Vehicle
     public int getNoOfSeats() {
         return noOfSeats;
     }
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
 
     @Override
     public void printMyData() {
