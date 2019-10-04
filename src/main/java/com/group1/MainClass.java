@@ -4,6 +4,7 @@ import com.group1.PEmployee.CommissionBasedPartTime;
 import com.group1.PEmployee.FullTime;
 import com.group1.PEmployee.FixedBasedPartTime;
 import com.group1.PEmployee.Intern;
+import com.group1.Vehicle.Car;
 import com.group1.Vehicle.Motorcycle;
 
 import java.io.FileNotFoundException;
@@ -16,8 +17,11 @@ public class MainClass
         //System.setOut(fileOut);
         Intern i1 = new Intern("Ankita",  24, "Lambton College");
         i1.printMyData();
+
         Intern i2=new Intern("Karan", 23,"Lambton College");
         i2.printMyData();
+        Car a=new Car("Lamborghini","Aventador SV",2018,"Kay1811","Car");
+        
         CommissionBasedPartTime c1 = new CommissionBasedPartTime("Sandeep", 22, 20.0f, 20, 10.0f);
         c1.printMyData();
         FixedBasedPartTime f1 = new FixedBasedPartTime("Kamal", 25, 20.0f, 15, 30.0f);
