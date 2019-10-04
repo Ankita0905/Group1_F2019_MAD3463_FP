@@ -2,8 +2,8 @@ package com.group1.Vehicle;
 
 public class Motorcycle extends Vehicle
 {
-    @Override
-    public void printMyData() {
+    public Motorcycle(String make, String model, int year, String plateNum, String typeOfVehicle) {
 
     }
+
 }
