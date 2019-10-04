@@ -13,6 +13,7 @@ public class Car extends Vehicle
     public void printMyData() {
         System.out.println("make: " +getMake());
         System.out.println("model: " +getModel());
+        System.out.println("Year: " +getYear());
 
     }
 }
