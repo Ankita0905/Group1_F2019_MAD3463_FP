@@ -1,5 +1,8 @@
 package com.group1;
 
+import com.group1.Vehicle.Car;
+import com.group1.Vehicle.Motorcycle;
+
 import java.time.LocalDate;
 
 public abstract class Employee implements IPrintable {
@@ -45,4 +48,7 @@ public abstract class Employee implements IPrintable {
     public abstract float calculateEarning();
 
     public abstract void printMyData();
+
+   // Car c1=new Car("honda","Model1", 2015,"ABC123","car");
+   // Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
 }

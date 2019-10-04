@@ -8,10 +8,12 @@ public class Motorcycle extends Vehicle
     @Override
     public void printMyData()
     {
-        System.out.println("make: " +getMake());
-        System.out.println("model: " +getModel());
-        System.out.println("Year: " +getYear());
-        System.out.println("Plate Number: " +getPlateNum());
         System.out.println("Employee has a: " +getTypeOfVehicle());
+        System.out.println("- Make: " +getMake());
+        System.out.println("- Model: " +getModel());
+        System.out.println("- Year: " +getYear());
+        System.out.println("- Plate Number: " +getPlateNum());
+
+
     }
 }
