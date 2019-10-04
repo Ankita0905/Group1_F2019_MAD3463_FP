@@ -8,6 +8,6 @@ public class Motorcycle extends Vehicle
     @Override
     public void printMyData()
     {
-
+        System.out.println("make: " +getMake());
     }
 }
