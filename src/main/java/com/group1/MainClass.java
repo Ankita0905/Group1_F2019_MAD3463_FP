@@ -17,7 +17,7 @@ public class MainClass
         //System.setOut(fileOut);
         Intern i1 = new Intern("Ankita",  24, "Lambton College");
         i1.printMyData();
-
+        Car a1=new Car("Ferrari","488 Spider",2017,"Ankita123","Car");
         Intern i2=new Intern("Karan", 23,"Lambton College");
         i2.printMyData();
         Car a=new Car("Lamborghini","Aventador SV",2018,"Kay1811","Car");
