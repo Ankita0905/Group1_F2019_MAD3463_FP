@@ -14,6 +14,9 @@ public class Vehicle implements IPrintable
     {
         this.make = make;
         this.model=model;
+        if(year<1900)
+        { throw new IllegalArgumentException("too much old");
+        }
 
 
 
