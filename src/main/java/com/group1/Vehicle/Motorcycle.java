@@ -9,5 +9,6 @@ public class Motorcycle extends Vehicle
     public void printMyData()
     {
         System.out.println("make: " +getMake());
+        System.out.println("model: " +getModel());
     }
 }
