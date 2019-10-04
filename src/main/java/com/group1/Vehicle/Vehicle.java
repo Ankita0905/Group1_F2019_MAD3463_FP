@@ -24,6 +24,7 @@ public class Vehicle implements IPrintable
     public String getMake() {
         return make;
     }
+    public void setMake(String make)
 
 
 
