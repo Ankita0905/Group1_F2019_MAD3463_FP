@@ -8,6 +8,9 @@ public class Car extends Vehicle
     public Car(String make, String model, int year, String plateNum, String typeOfVehicle) {
         super(make, model, year, plateNum, typeOfVehicle);
     }
+    public String getColor() {
+        return color;
+    }
 
     @Override
     public void printMyData() {
