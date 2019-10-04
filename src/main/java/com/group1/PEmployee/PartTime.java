@@ -1,4 +1,4 @@
-package com.group1;
+package com.group1.PEmployee;
 
 public abstract class PartTime extends Employee
 {

@@ -1,7 +1,11 @@
 package com.group1;
 
+import com.group1.PEmployee.CommissionBasedPartTime;
+import com.group1.PEmployee.FullTime;
+import com.group1.PEmployee.FixedBasedPartTime;
+import com.group1.PEmployee.Intern;
+
 import java.io.FileNotFoundException;
-import java.io.PrintStream;
 
 public class MainClass
 {
