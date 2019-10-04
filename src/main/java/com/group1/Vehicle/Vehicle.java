@@ -2,7 +2,7 @@ package com.group1.Vehicle;
 
 import com.group1.IPrintable;
 
-public class Vehicle implements IPrintable
+public abstract class Vehicle implements IPrintable
 
 {
     private String make;
@@ -61,11 +61,7 @@ public class Vehicle implements IPrintable
         return this.make+" "+ this.model;
     }
 
-
-
-
     @Override
-    public void printMyData() {
+    public abstract void printMyData();
 
-    }
 }
