@@ -1,7 +1,6 @@
-package com.group1;
+package com.group1.PEmployee;
 
-import com.group1.Vehicle.Car;
-import com.group1.Vehicle.Motorcycle;
+import com.group1.IPrintable;
 
 import java.time.LocalDate;
 
