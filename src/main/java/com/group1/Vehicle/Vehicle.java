@@ -13,6 +13,7 @@ public class Vehicle implements IPrintable
     public Vehicle(String make,String model,int year,String plateNum,String typeOfVehicle)
     {
         private String make;
+        this.make = make;
 
 
 
