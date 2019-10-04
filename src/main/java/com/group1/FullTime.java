@@ -43,7 +43,7 @@ public class FullTime extends Employee
         System.out.println("- Salary : " + getSalary());
         System.out.println("- Bonus : " + getBonus());
         System.out.println("- Earnings : " + calculateEarning());
-
+        m1.printMyData();
         System.out.println("**********************************************************************************");
     }
 
