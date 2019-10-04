@@ -33,7 +33,7 @@ public class FullTime extends Employee
     {
         return getSalary() + getBonus();
     }
-    
+
 
     @Override
     public void printMyData() {
