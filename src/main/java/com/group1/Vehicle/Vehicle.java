@@ -44,6 +44,10 @@ public class Vehicle implements IPrintable
     {
         this.year = year;
     }
+    public String getPlateNum() {
+        return plateNum;
+    }
+
 
 
 
