@@ -28,12 +28,13 @@ public class Intern extends Employee
     @Override
     public void printMyData()
     {
+        System.out.println("**********************************************************************************");
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
         System.out.println("Employee is Intern");
         System.out.println("- SchoolName:" + " " + getSchoolName());
         System.out.println("- Earnings:" + " " + calculateEarning());
-        System.out.println("**********************************************************************************");
+
     }
 }
 
