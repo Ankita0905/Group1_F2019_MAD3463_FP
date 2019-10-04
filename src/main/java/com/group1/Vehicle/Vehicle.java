@@ -21,6 +21,7 @@ public class Vehicle implements IPrintable
         this.plateNum=plateNum;
         this.typeOfVehicle=typeOfVehicle;
     }
+    public String getMake()
 
 
 
