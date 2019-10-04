@@ -25,6 +25,7 @@ public class MainClass
         a.printMyData();
         CommissionBasedPartTime c1 = new CommissionBasedPartTime("Sandeep", 22, 20.0f, 20, 10.0f);
         c1.printMyData();
+        Motorcycle m2=new Motorcycle("BMW","RR-1000",2018,"Sandy25","Motorcycle");
         FixedBasedPartTime f1 = new FixedBasedPartTime("Kamal", 25, 20.0f, 15, 30.0f);
         f1.printMyData();
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
