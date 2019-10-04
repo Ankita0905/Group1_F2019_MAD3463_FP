@@ -23,8 +23,8 @@ public class MainClass
         f1.printMyData();
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
         ft1.printMyData();
-
-        System.out.println("Total Payroll: " + (i1.calculateEarning()+i2.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning())+" Canadian Dollors");
+        float totalPayroll=i1.calculateEarning()+i2.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning();
+        System.out.println("Total Payroll: " + totalPayroll+" Canadian Dollars");
 
 
     }
