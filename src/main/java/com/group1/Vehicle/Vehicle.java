@@ -18,6 +18,7 @@ public class Vehicle implements IPrintable
         { throw new IllegalArgumentException("too much old");
         }
         this.year=year;
+        this.plateNum=plateNum;
 
 
 
