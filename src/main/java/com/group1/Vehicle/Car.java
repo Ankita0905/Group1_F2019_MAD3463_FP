@@ -14,6 +14,8 @@ public class Car extends Vehicle
         System.out.println("make: " +getMake());
         System.out.println("model: " +getModel());
         System.out.println("Year: " +getYear());
+        System.out.println("Plate Number: " +getPlateNum());
+
 
     }
 }
