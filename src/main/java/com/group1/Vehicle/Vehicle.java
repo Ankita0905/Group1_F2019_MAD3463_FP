@@ -56,6 +56,10 @@ public class Vehicle implements IPrintable
     public void setTypeOfVehicle(String typeOfVehicle) {
         this.typeOfVehicle = typeOfVehicle;
     }
+    public String toString()
+    {
+        return this.make+" "+ this.model;
+    }
 
 
 
