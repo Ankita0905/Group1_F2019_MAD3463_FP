@@ -33,18 +33,19 @@ public class FullTime extends Employee
     {
         return getSalary() + getBonus();
     }
-    Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
+    
 
     @Override
     public void printMyData() {
+        System.out.println("**********************************************************************************");
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
         System.out.println("Employee is Full Time");
         System.out.println("- Salary : " + getSalary());
         System.out.println("- Bonus : " + getBonus());
         System.out.println("- Earnings : " + calculateEarning());
-        m1.printMyData();
-        System.out.println("**********************************************************************************");
+
+
     }
 
 }

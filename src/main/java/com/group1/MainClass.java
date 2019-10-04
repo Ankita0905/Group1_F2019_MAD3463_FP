@@ -4,6 +4,7 @@ import com.group1.PEmployee.CommissionBasedPartTime;
 import com.group1.PEmployee.FullTime;
 import com.group1.PEmployee.FixedBasedPartTime;
 import com.group1.PEmployee.Intern;
+import com.group1.Vehicle.Motorcycle;
 
 import java.io.FileNotFoundException;
 
@@ -23,6 +24,8 @@ public class MainClass
         f1.printMyData();
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
         ft1.printMyData();
+        Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
+        m1.printMyData();
         float totalPayroll=i1.calculateEarning()+i2.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning();
         System.out.println("Total Payroll: " + totalPayroll+" Canadian Dollars");
 
