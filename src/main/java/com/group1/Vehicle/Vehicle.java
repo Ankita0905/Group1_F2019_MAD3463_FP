@@ -64,4 +64,6 @@ public abstract class Vehicle implements IPrintable
     @Override
     public abstract void printMyData();
 
+
+
 }
