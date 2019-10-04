@@ -19,6 +19,8 @@ public class Vehicle implements IPrintable
         }
         this.year=year;
         this.plateNum=plateNum;
+        this.typeOfVehicle=typeOfVehicle;
+    }
 
 
 
