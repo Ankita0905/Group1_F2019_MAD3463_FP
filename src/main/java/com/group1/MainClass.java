@@ -35,7 +35,9 @@ public class MainClass
         ft1.printMyData();
         Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
         m1.printMyData();
+
         float totalPayroll=i1.calculateEarning()+i2.calculateEarning()+c1.calculateEarning()+f1.calculateEarning()+ft1.calculateEarning();
+        System.out.println("**********************************************************************************");
         System.out.println("Total Payroll: " + totalPayroll+" Canadian Dollars");
 
 
