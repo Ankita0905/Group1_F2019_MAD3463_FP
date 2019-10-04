@@ -29,7 +29,7 @@ public class FixedBasedPartTime extends PartTime
         System.out.println("- HoursWorked:" + " " + getHoursWorked());
         System.out.println("- Fixed Amount:" + " " + getFixedAmount());
         System.out.println("- Earnings:" + " " + calculateEarning());
-        System.out.println("**********************************************************************************");
+
 
     }
 

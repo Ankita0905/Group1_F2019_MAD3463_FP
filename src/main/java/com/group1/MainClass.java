@@ -6,6 +6,7 @@ import com.group1.PEmployee.FixedBasedPartTime;
 import com.group1.PEmployee.Intern;
 import com.group1.Vehicle.Car;
 import com.group1.Vehicle.Motorcycle;
+import com.group1.Vehicle.Vehicle;
 
 import java.io.FileNotFoundException;
 
@@ -29,6 +30,7 @@ public class MainClass
         m2.printMyData();
         FixedBasedPartTime f1 = new FixedBasedPartTime("Kamal", 25, 20.0f, 15, 30.0f);
         f1.printMyData();
+
         FullTime ft1=new FullTime("Honey", 26, 1500f, 200f);
         ft1.printMyData();
         Motorcycle m1=new Motorcycle("Hero", "CBR", 2010,"EFG234", "Motorcycle");
