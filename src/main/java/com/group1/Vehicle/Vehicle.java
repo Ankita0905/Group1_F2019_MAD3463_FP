@@ -12,8 +12,9 @@ public class Vehicle implements IPrintable
     private String typeOfVehicle;
     public Vehicle(String make,String model,int year,String plateNum,String typeOfVehicle)
     {
-        private String make;
         this.make = make;
+        this.model=model;
+
 
 
 
