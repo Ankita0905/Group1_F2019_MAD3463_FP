@@ -1,5 +1,6 @@
 package com.group1.PEmployee;
 
+import com.group1.Vehicle.Car;
 import com.group1.Vehicle.Motorcycle;
 
 public class FullTime extends Employee
@@ -37,14 +38,16 @@ public class FullTime extends Employee
 
     @Override
     public void printMyData() {
-        System.out.println("**********************************************************************************");
+
         System.out.println("Name:" + " " + getName());
         System.out.println("Year of Birth:" + " " + getBirthYear());
         System.out.println("Employee is Full Time");
         System.out.println("- Salary : " + getSalary());
         System.out.println("- Bonus : " + getBonus());
         System.out.println("- Earnings : " + calculateEarning());
-
+        Car a=new Car("Lamborghini","Aventador SV",2018,"Kay1811","Car");
+        a.printMyData();
+        System.out.println("**********************************************************************************");
 
     }
 

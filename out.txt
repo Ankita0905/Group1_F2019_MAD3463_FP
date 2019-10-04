@@ -1,36 +1,46 @@
 Name: Ankita
 Year of Birth: 1995
 Employee is Intern
-SchoolName: Lambton College
-Earnings: 1000.0
-**********************************************************************************
-Name: Karan
-Year of Birth: 1996
-Employee is Intern
-SchoolName: Lambton College
-Earnings: 1000.0
+- SchoolName: Lambton College
+- Earnings: 1000.0
+Employee has a Car
+- Make: Ferrari
+- Model: 488 Spider
+- Year: 2017
+- Plate Number: Ankita123
 **********************************************************************************
 Name: Sandeep
 Year of Birth: 1997
 Employee is PartTime / Commissioned
-Rate: 20.0
-HoursWorked: 20
-Commission: 10.0%
-Earnings: 440.0
+- Rate: 20.0
+- HoursWorked: 20
+- Commission: 10.0%
+- Earnings: 440.0
+Employee has a Motorcycle
+- Make: BMW
+- Model: RR-1000
+- Year: 2018
+- Plate Number: Sandy25
 **********************************************************************************
 Name: Kamal
 Year of Birth: 1994
-Employee is PartTime / Fixed Amt
-Rate: 20.0
-HoursWorked: 15
-Fixed Amount: 30.0
-Earnings: 330.0
+Employee is PartTime / Fixed based
+- Rate: 20.0
+- HoursWorked: 15
+- Fixed Amount: 30.0
+- Earnings: 330.0
+Employee has no Vehicle
 **********************************************************************************
-Name: Honey
-Year of Birth: 1993
+Name: Karan
+Year of Birth: 1996
 Employee is Full Time
-The salary is: 1500.0
-Bonus is: 200.0
-Earnings: 1700.0
+- Salary : 1500.0
+- Bonus : 200.0
+- Earnings : 1700.0
+Employee has a Car
+- Make: Lamborghini
+- Model: Aventador SV
+- Year: 2018
+- Plate Number: Kay1811
 **********************************************************************************
-Total Payroll: 4470.0
+Total Payroll: 3470.0 Canadian Dollars
