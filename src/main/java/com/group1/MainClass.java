@@ -11,8 +11,8 @@ public class MainClass
 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        PrintStream fileOut = new PrintStream("./out.txt");
-        System.setOut(fileOut);
+        //PrintStream fileOut = new PrintStream("./out.txt");
+        //System.setOut(fileOut);
         Intern i1 = new Intern("Ankita",  24, "Lambton College");
         i1.printMyData();
         //Car a1=new Car("Ferrari","488 Spider",2017,"Ankita123","Car");

@@ -13,7 +13,5 @@ public class Motorcycle extends Vehicle
         System.out.println("- Model: " +getModel());
         System.out.println("- Year: " +getYear());
         System.out.println("- Plate Number: " +getPlateNum());
-
-
     }
 }
